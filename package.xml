@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>HNS_device_driver</name>
+  <version>0.1.0</version>
+  <description>The HNS_device_driver package</description>
+
+  <maintainer email="ooww0123@kaist.ac.kr">Wonseok Oh</maintainer>
+  <license>BSD</license>
+  <author email="ooww0123@kaist.ac.kr">Wonseok Oh</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>serial</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>serial</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>serial</exec_depend>
+</package>
